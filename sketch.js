@@ -18,8 +18,8 @@ function setup() {
 }
 function preload(){
   Fonte=loadFont('game_over.ttf');
-  play=loadImage('Imagens/Nave.png');
-  ini=loadImage('Imagens/Navei.png');
+  play=loadImage('Nave.png');
+  ini=loadImage('Navei.png');
   ceci=loadImage('cenario.png');
 }
 let x=0,y=0,i=0,j=0,modulo=0,velo=10,estiro=[],colib=false,xdi =[],ydi=[],xd =[],yd=[],z=0,v=[],xv=[], yv=[],xe=[],ye=[],t=1,qtet=200,rlag=5,ves=2,tt=30,ct=0,h=0,c=0,ts=[],qti=[],morte=[],l=0,tr=0,score=0,m=0,qid=0,Fonte,play,ceci,ini,qte=10,tela=0,xti,xtiv=0,cad=600,bonu=false;
